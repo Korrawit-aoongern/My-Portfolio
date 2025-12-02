@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.vscode
+.idea
+npm-debug.log
+Dockerfile
+dockerfile
+README.md
+*.env
+*.localnode_modules
+dist
+dockerfile
+.dockerfile
