@@ -50,7 +50,7 @@ function toggleLang() {
   <div class="min-h-screen bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-50 transition-colors ">
     <!-- Navbar -->
     <header class="w-full flex justify-between items-center bg-neutral-50 dark:bg-neutral-900 px-6 py-4 border-b border-neutral-200 dark:border-neutral-700 sticky top-0">
-      <h1 class="text-2xl font-bold text-orange-500">Yuzu Portfolio</h1>
+      <h1 class="text-2xl font-bold text-orange-500">Korrawit Aoongern Portfolio</h1>
       <div class="flex gap-4">
         <!-- Dark mode toggle -->
         <button 
@@ -75,9 +75,14 @@ function toggleLang() {
     <main class="px-6 py-10 max-w-4xl mx-auto flex flex-col gap-24">
 
       <!-- About Me -->
-      <section id="about" class="space-y-4">
-        <h2 class="text-3xl font-semibold text-orange-500">About Me</h2>
-        <p class="text-neutral-700 dark:text-neutral-300">Write something about yourself here...</p>
+      <section id="about" class="space-y-4 flex flex-row justify-around">
+        <div>
+          <img src="../public/9bb1c31a-5271-48f1-b73b-f4ba9e951970.jpg" alt="me" width="200px"></img>
+        </div>
+        <div>
+          <h2 class="text-3xl font-semibold text-orange-500">About Me</h2>
+          <p class="text-neutral-700 dark:text-neutral-300 mt-3 w-100">Hello, My name is Korrawit Aoongern. I am Software Engineering Student at University of Phayao.</p>
+        </div>
       </section>
 
       <!-- Education -->
@@ -85,8 +90,15 @@ function toggleLang() {
         <h2 class="text-3xl font-semibold text-orange-500">Education</h2>
         <div class="space-y-2">
           <div class="p-4 border border-neutral-300 dark:border-neutral-700 rounded-xl">
-            <p class="font-semibold">Institution Name</p>
-            <p class="text-sm opacity-80">Years and description...</p>
+            <p class="font-semibold text-xl">1. Charoenrasdr School</p>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">2011 - 9 March 2024</p>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">Highest Graduate : M.6 (Grade 12)</p>
+          </div>
+          <div class="p-4 border border-neutral-300 dark:border-neutral-700 rounded-xl">
+            <p class="font-semibold text-xl">2. University of Phayao</p>
+            <p class="font-semibold text-sm">Bachelor of Engineering Program in Software Engineering (BEng. SE)</p>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">10 June 2024 - Present</p>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">Highest Graduate : Ongoing</p>
           </div>
         </div>
       </section>
