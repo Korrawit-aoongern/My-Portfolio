@@ -81,7 +81,9 @@ function toggleLang() {
         </div>
         <div>
           <h2 class="text-3xl font-semibold text-orange-500">About Me</h2>
-          <p class="text-neutral-700 dark:text-neutral-300 mt-3 w-100">Hello, My name is Korrawit Aoongern. I am Software Engineering Student at University of Phayao.</p>
+          <p class="text-neutral-700 dark:text-neutral-300 mt-3 w-100">Hello, My name is Korrawit Aoongern. I am Software Engineering Student at University of Phayao. I have interest in technology, creativity, AI, quantum technology, physics, Game development, DevOps, and passionate things.
+          I like to exploring the programming, art, and design, and I always looking for a better ways to blend technology with creativity.
+          </p>
         </div>
       </section>
 
@@ -107,8 +109,14 @@ function toggleLang() {
       <section id="skills" class="space-y-4">
         <h2 class="text-3xl font-semibold text-orange-500">Skills</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center">Skill A</div>
-          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center">Skill B</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Frontend Development</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Backend Development</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Database Foundations</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">DevOps Foundations</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Systems Thinking</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Problem-solving</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">Learning Consistency</div>
+          <div class="p-3 border border-neutral-300 dark:border-neutral-700 rounded-lg text-center hover:border-orange-500">AI Implementation</div>
         </div>
       </section>
 
