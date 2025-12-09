@@ -77,7 +77,7 @@ function toggleLang() {
       <!-- About Me -->
       <section id="about" class="space-y-4 flex flex-row justify-around">
         <div>
-          <img src="../public/9bb1c31a-5271-48f1-b73b-f4ba9e951970.jpg" alt="me" width="200px"></img>
+          <img src="../public/9bb1c31a-5271-48f1-b73b-f4ba9e951970.jpg" alt="me" width="200px">
         </div>
         <div>
           <h2 class="text-3xl font-semibold text-orange-500">About Me</h2>
